@@ -12,8 +12,8 @@ def view_students():
     print("\n--- Student Records ---")
     for roll, data in students.items():
         print("Roll No:", roll,
-        "| Name:", data["Name"],
-        "| Department:", data["Department"])
+            "| Name:", data["Name"],
+            "| Department:", data["Department"])
 def search_student():
     roll = input("Enter Roll No to search: ")
     if roll in students:
